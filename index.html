@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src ="script.js" async></script>
+    <title>Методичка</title>
+</head>
+<body>
+    <header>
+        <h2 class="name">Архитектура ЭВМ</h2>
+		<ul class="nav_menu">
+			<li class="nav_menu_dropdown">
+                <button class="button_menu"><a class="menu_item" href="index.html">Лекции</a></button>
+            </li>
+			<li class="nav_menu_dropdown">
+                <button class="button_menu"><a class="menu_item" href="tests.html">Тесты</a></button>
+            </li>
+			<li><a class="menu_item" href="laboratory.html">Лабораторные работы</a></li>
+			<li><a class="menu_item" href="video.html">Видеоматериалы</a></li>
+		</ul>
+    </header>
+    <div class="page">
+        <aside class="aside">
+            <ul class="nav_menu_aside">
+                <li class="menu_item elem" id="history">История вычислительной техники</li>
+                <li class="menu_item elem" id="architecture">Архитектура персонально компьютера</li>
+                    <ul class="nested_list">
+                        <li class="elem menu_item_elem" id="cpu">Процессор</li>
+                        <li class="elem menu_item_elem" id="cash">Назначение КЭШ памяти и сопроцессора</li>
+                        <li class="elem menu_item_elem" id="bus">Системные шины</li>
+                        <li class="elem menu_item_elem" id="memory">Память</li>
+                        <li class="elem menu_item_elem" id="ram">Оперативная память</li>
+                        <li class="elem menu_item_elem" id="timeout">Подтайминги</li>
+                        <li class="elem menu_item_elem" id="hdd">Накопитель на магнитных дисках</li>
+                        <li class="elem menu_item_elem" id="vodeo_card">Видеокарты</li>
+                    </ul>
+                </li>
+                <li class="menu_item elem" id="interfaces">Интерфейсы компьютерных систем</li>
+                
+            </ul>
+        </aside>
+        <main class="main">
+            <div id="div_history"></div>
+            <div id="div_architecture"></div>
+            <div id="div_cpu"></div>
+            <div id="div_cash"></div>
+            <div id="div_bus"></div>
+            <div id="div_memory"></div>
+            <div id="div_ram"></div>
+            <div id="div_timeout"></div>
+            <div id="div_hdd"></div>
+            <div id="div_video_card"></div>
+            <div id="div_interfase"></div>
+        </main> 
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>
+    

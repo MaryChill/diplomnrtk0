@@ -1,0 +1,338 @@
+html{
+    font-size: 16px;
+    font-family: Open Sans;
+  }
+  body {
+    margin: 0px;
+  }
+header{
+	background-color: #283618;
+	color: white;
+	display:flex;
+    align-items: center;
+	justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+button{
+  padding: 0;  
+  border: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+li{
+    list-style-type: none;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+ol li{
+    list-style-type: decimal;
+}
+
+h4{
+    font-size: 1.15em;
+}
+
+.name{
+    font-family: Open Sans; 
+    font-weight: 700;
+}
+
+.nav_menu{ 
+    display: flex;
+}
+
+.button_menu{
+    font-size: 16px;
+    font-family: Open Sans;
+    background-color: #283618;
+    position: relative;
+}
+.nav_menu_dropdown:hover .button_menu_content{
+    display: flex;
+}
+
+.button_menu_content{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    background-color: rgba(254, 250, 224, 0.7);
+    
+}
+.button_menu_content a:hover{
+    background-color: #FEFAE0;
+    color: white;
+
+}
+
+.nav_menu li{
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+}
+.menu_item {
+    margin: 1px;
+    color: white;
+    font-size: 16px;
+    font-family: Open Sans;
+}
+.nav_menu a{
+    padding: 15px;
+    display: inline-block;
+    
+}
+
+.nav_menu a:hover{
+    background: #DDA15E;
+
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.aside{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #606C38;
+    width: 15vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.aside::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f9f9fd;
+}
+  
+.aside::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #CCD5AE;
+}
+  
+.nav_menu_aside{
+    display: flex;
+    flex-direction: column;
+}
+.nav_menu_aside li{
+    padding: 15px;
+}
+.nav_menu_aside_li{
+    margin-left: 15px;
+}
+
+.nav_menu_aside li:hover{
+    background-color: rgba(254, 250, 224, 0.3);
+    
+}
+.active{
+    background-color: #BC6C25;
+}
+.menu_item{
+    color: white;
+}
+.nav_menu_aside_li a{
+    color: #E7E0AD;
+}
+.nested_list li {
+    margin-left: 20px;
+    color: #283618;
+}
+.main{
+    padding: 20px;
+    width: 80vw;
+}
+.main h2{
+    color: #DDA15E;
+    font-size: 2em;
+}
+.main h3{
+    color: #283618;
+    font-size: 1.5em;
+}
+
+.main ul{
+    margin-left: 20px;
+}
+.main ul li{
+    list-style-type: disc;
+}
+.architecture_3_list::marker{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.architecture_figure{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.figure{
+    border: 5px solid #CCD5AE;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.img_cpu{
+    width: 955px;
+    height: 450px;
+    border: 5px solid #CCD5AE;
+}
+.architecture_3_3_HT{
+    display: flex;
+    
+}
+.architecture_3_3_HT img{
+    border: 5px solid #CCD5AE;
+    margin: 20px;
+}
+.simple_img{
+    border: 5px solid #CCD5AE;
+    margin: 20px;
+}
+
+.memory_header{
+    color: #3D5126;
+  
+}
+.memory_header_mini{
+    color: #606C38;
+}
+.smaller{
+    max-width: 400px;
+}
+.smaller_middle{
+    max-width: 550px;
+}
+figcaption{
+    background-color: #CCD5AE;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+}
+/*-------------- лабы----------- */
+.download{
+    display: flex;
+    flex-wrap: wrap;
+}
+.download_laba{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+    height: 100px;
+    width: 430px;
+    background-color: #CCD5AE;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 700;
+}
+
+.download_laba:hover{
+    background-color: #99AE53;
+}
+.laboratory_text{
+    padding: 60px;
+}
+.laboratory_text ul li{
+    list-style-type: disc;
+}
+.document{
+    padding: 20px 40px;
+}
+.download_laba:hover .document{
+    background-color: rgba(254, 250, 224,0.5);
+
+}
+/* ---------------лабы------------- */
+/* ---------------тесты------------ */
+.test_page{
+    display: flex;
+    flex-wrap: wrap;
+}
+.test{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+    height: 100px;
+    width: 430px;
+    background-color: #CCD5AE;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 700;
+}
+.test:hover {
+    background-color: #99AE53;
+}
+#select_test {
+    display: flex;
+    flex-wrap: wrap;
+}
+.hide {
+    visibility: hidden;
+}
+/* //////////////////////////// */
+.button_chek {
+    background-color: #99AE53;
+    margin: 10px;
+    padding: 20px;
+    border: none;
+    font-family: Open Sans;
+}
+.button_chek:focus{
+    border: none;
+}
+/* .input:checked {
+    background-color: #99AE53;
+} */
+/* .form {
+    display: flex;
+    flex-direction: column;
+} */
+#one_of_test{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+/* span.quest {
+    font-weight: bold;
+}
+label {
+    margin-left: 15px;
+}
+.nav {
+    font-size: 17px;
+}  */
+/* ---------------тесты------------- */
+@font-face {
+    font-family: Open Sans;
+    src: url("../fonts/OpenSans-Regular.woff");
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: Open Sans;
+    src: url("../fonts/OpenSans-Bold.woff");
+    font-style: normal;
+    font-weight: 700;
+  }
+  
