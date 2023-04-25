@@ -85,6 +85,12 @@ h4{
     font-size: 16px;
     font-family: Open Sans;
 }
+.item {
+    margin: 1px;
+    color: white;
+    font-size: 16px;
+    font-family: Open Sans;
+}
 .nav_menu a{
     padding: 15px;
     display: inline-block;
@@ -138,9 +144,11 @@ h4{
 .active{
     background-color: #BC6C25;
 }
-.menu_item{
-    color: white;
-}
+
+/* .active:hover {
+    background-color: #BC6C25;
+} */
+
 .nav_menu_aside_li a{
     color: #E7E0AD;
 }
@@ -289,7 +297,6 @@ figcaption{
 .hide {
     visibility: hidden;
 }
-/* //////////////////////////// */
 .button_chek {
     background-color: #99AE53;
     margin: 10px;
@@ -300,28 +307,32 @@ figcaption{
 .button_chek:focus{
     border: none;
 }
-/* .input:checked {
-    background-color: #99AE53;
-} */
-/* .form {
-    display: flex;
-    flex-direction: column;
-} */
+
 #one_of_test{
     display: flex;
     flex-direction: column;
     margin-left: 25px;
 }
-/* span.quest {
-    font-weight: bold;
-}
-label {
-    margin-left: 15px;
-}
-.nav {
-    font-size: 17px;
-}  */
 /* ---------------тесты------------- */
+/* ---------------видосы------------ */
+.base_page {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.video_page{
+    display: flex;
+    justify-content: flex-start;
+    width: 85vw;
+    justify-content: space-around;
+}
+.video_div {
+    margin-top: 40px;
+}
+
+
+/* ---------------видосы------------ */
 @font-face {
     font-family: Open Sans;
     src: url("../fonts/OpenSans-Regular.woff");
