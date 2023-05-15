@@ -145,10 +145,6 @@ h4{
     background-color: #BC6C25;
 }
 
-/* .active:hover {
-    background-color: #BC6C25;
-} */
-
 .nav_menu_aside_li a{
     color: #E7E0AD;
 }
@@ -270,7 +266,31 @@ figcaption{
 /* ---------------тесты------------ */
 .test_page{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 35px 5px;
+}
+.main_test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 550px;
+    margin: 0 auto 35px auto;
+}
+.button_test {
+    height: 50px;
+    background-color: #CCD5AE;
+    font-family: Open Sans;
+    font-weight: 700;
+}
+.button_test:hover {
+    background-color: #99AE53;
+}
+.test_final {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 2em;
 }
 .test{
     box-sizing: border-box;
@@ -286,11 +306,11 @@ figcaption{
     text-align: center;
     font-family: Open Sans;
     font-weight: 700;
-}
+} 
 .test:hover {
     background-color: #99AE53;
-}
-#select_test {
+} 
+ #select_test {
     display: flex;
     flex-wrap: wrap;
 }
