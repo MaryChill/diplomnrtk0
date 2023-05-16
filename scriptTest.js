@@ -406,6 +406,7 @@ function score(){
 test.forEach(index => {
     index.addEventListener('click', () => {
         selectTest.classList.add('hide');
+        finalTest.classList.add('hide');
         if(test[0] == index){
                 oneOfTest.insertAdjacentHTML('afterbegin',
                 `<h2 class="question_name">История вычислительной техники</h2>
