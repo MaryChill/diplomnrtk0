@@ -18,7 +18,9 @@ button{
   padding: 0;  
   border: 0;
 }
-
+p{
+    font-family: Open Sans; 
+}
 a{
     text-decoration: none;
     color: black;
@@ -26,6 +28,7 @@ a{
 }
 li{
     list-style-type: none;
+    font-family: Open Sans;
 }
 
 ul{
@@ -34,10 +37,12 @@ ul{
 }
 ol li{
     list-style-type: decimal;
+    font-family: Open Sans;
 }
 
 h4{
     font-size: 1.15em;
+    font-family: Open Sans;
 }
 
 .name{
@@ -159,10 +164,12 @@ h4{
 .main h2{
     color: #DDA15E;
     font-size: 2em;
+    font-family: Open Sans;
 }
 .main h3{
     color: #283618;
     font-size: 1.5em;
+    font-family: Open Sans;
 }
 
 .main ul{
@@ -170,6 +177,7 @@ h4{
 }
 .main ul li{
     list-style-type: disc;
+    font-family: Open Sans;
 }
 .architecture_3_list::marker{
     font-size: 1.5em;
@@ -254,6 +262,7 @@ figcaption{
 }
 .laboratory_text ul li{
     list-style-type: disc;
+    font-family: Open Sans;
 }
 .document{
     padding: 20px 40px;
@@ -355,14 +364,14 @@ figcaption{
 /* ---------------видосы------------ */
 @font-face {
     font-family: Open Sans;
-    src: url("../fonts/OpenSans-Regular.woff");
+    src: url("fonts/OpenSans-Regular.woff");
     font-style: normal;
     font-weight: 400;
   }
   
   @font-face {
     font-family: Open Sans;
-    src: url("../fonts/OpenSans-Bold.woff");
+    src: url("fonts/OpenSans-Bold.woff");
     font-style: normal;
     font-weight: 700;
   }
