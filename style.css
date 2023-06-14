@@ -253,7 +253,14 @@ figcaption{
     font-family: Open Sans;
     font-weight: 700;
 }
-
+.description_text {
+    display: flex;
+    flex-direction: column;
+}
+.description_text p {
+    padding: 0;
+    margin: 0;
+}
 .download_laba:hover{
     background-color: #99AE53;
 }
@@ -270,6 +277,10 @@ figcaption{
 .download_laba:hover .document{
     background-color: rgba(254, 250, 224,0.5);
 
+}
+.description {
+    text-transform: lowercase;
+    font-weight: 400;
 }
 /* ---------------лабы------------- */
 /* ---------------тесты------------ */
